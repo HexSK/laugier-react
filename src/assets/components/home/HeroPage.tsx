@@ -1,5 +1,5 @@
 import {Container, Col, Row} from 'react-bootstrap';
-import laugierLogo from '../images/LaugierNB.png';
+import laugierLogo from '../../images/LaugierNB.png';
 import './HeroPage.css';
 
 function HeroPage(){

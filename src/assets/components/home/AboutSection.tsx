@@ -1,4 +1,5 @@
 import {Container, Row, Col} from 'react-bootstrap';
+import './AboutSection.css';
 
 function AboutSection(){
     return(
