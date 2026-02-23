@@ -4,7 +4,7 @@ import './HeroPage.css';
 
 function HeroPage(){
     return(
-        <Container fluid className="h-100 hero-section">
+        <Container fluid className="h-100 hero-section" id="home">
           <Row className="h-100 align-items-center">
             <Col xs={12} md={6} className="text-center text-md-end mb-4 mb-md-0 d-flex justify-content-center justify-content-md-end">
               <img src={laugierLogo} alt="Laugier Trans Logo" className="hero-logo" />

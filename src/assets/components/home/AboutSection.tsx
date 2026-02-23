@@ -3,7 +3,7 @@ import './AboutSection.css';
 
 function AboutSection(){
     return(
-        <section className="about-section">
+        <section className="about-section" id="about">
         <Container fluid>
           <Row className="align-items-center g-5">
             <Col xs={12} md={6} className="d-flex justify-content-center">

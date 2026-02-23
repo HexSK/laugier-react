@@ -8,7 +8,7 @@ function Gallery(){
   );
   const imageArray = Object.values(imagesObj);
   return(
-    <Container fluid className="gallery-section">
+    <Container fluid className="gallery-section" id="gallery">
         <div className="gallery-grid">
           {Array.from({ length: Math.ceil(imageArray.length / 3) }).map((_, i) => (
             <Row key={i} className="gallery-row justify-content-center">
