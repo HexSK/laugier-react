@@ -1,5 +1,6 @@
 import {Container, Row, Col} from 'react-bootstrap';
 import './AboutSection.css';
+import laugierVid from '../../vids/LaugierAlpha.webm';
 
 function AboutSection(){
     return(
@@ -7,7 +8,14 @@ function AboutSection(){
         <Container fluid>
           <Row className="align-items-center g-5">
             <Col xs={12} md={6} className="d-flex justify-content-center">
-              <img src="https://placehold.co/500x500" alt="About Laugier" className="about-image" />
+              <video
+                src={laugierVid}
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="about-image"
+              />
             </Col>
             <Col xs={12} md={6}>
               <h2 className="section-title">About Us</h2>
@@ -19,7 +27,7 @@ function AboutSection(){
               <div className="features-grid">
                 <div className="feature-card">
                   <h4>🚚 Realistic Roleplay</h4>
-                  <p>Dive into our immersive RP concept! From managing your fleet to tracking jobs, FreightLine Express mirrors the operations of a real-world company.</p>
+                  <p>Dive into our immersive RP concept! From managing your fleet to tracking jobs, Laugier Trans mirrors the operations of a real-world company.</p>
                 </div>
                 <div className="feature-card">
                   <h4>🛠 Our Technology</h4>

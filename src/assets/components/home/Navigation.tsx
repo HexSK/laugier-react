@@ -1,5 +1,5 @@
 import {Container, Nav, Navbar} from 'react-bootstrap';
-import laugierLogo from '../../images/LinearNB.png';
+import laugierLogo from '../../images/Normal/Laugier NB.png';
 import './Navigation.css';
 
 function Navigation() {

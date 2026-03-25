@@ -9,7 +9,7 @@
   width: 100%;
   max-width: 500px;
   border-radius: 1rem;
-  border: 3px solid #d4af37;
+  border: 3px solid #037580;
   object-fit: cover;
 }
 
@@ -17,7 +17,7 @@
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
-  color: #d4af37;
+  color: #037580;
 }
 
 .section-description {
@@ -41,22 +41,22 @@
 }
 
 .feature-card {
-  background-color: #242424;
+  background-color: #111111;
   padding: 2rem;
   border-radius: 0.75rem;
-  border-left: 4px solid #d4af37;
+  border-left: 4px solid #037580;  
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .feature-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(212, 175, 55, 0.2);
+  box-shadow: 0 10px 30px #037580;
 }
 
 .feature-card h4 {
   font-size: 1.3rem;
   margin-bottom: 1rem;
-  color: #d4af37;
+  color: #037580;
 }
 
 .feature-card p {

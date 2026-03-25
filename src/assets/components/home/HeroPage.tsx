@@ -1,5 +1,5 @@
 import {Container, Col, Row} from 'react-bootstrap';
-import laugierLogo from '../../images/LaugierNB.png';
+import laugierLogo from '../../images/Normal/Laugier NB.png';
 import './HeroPage.css';
 
 function HeroPage(){
@@ -11,7 +11,7 @@ function HeroPage(){
             </Col>
             <Col xs={12} md={6}>
               <h1 className="hero-title">Laugier Trans</h1>
-              <p className="hero-subtitle">Premium freight and logistics solutions</p>
+              <p className="hero-subtitle">Agricultural Contracting</p>
               <div className="button-group">
                 <button className="hero-button">Get Started</button>
                 <button className="hero-button">Learn More</button>

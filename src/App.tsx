@@ -4,6 +4,7 @@ import HeroPage from './assets/components/home/HeroPage';
 import AboutSection from './assets/components/home/AboutSection';
 import Gallery from './assets/components/home/Gallery';
 import Contact from './assets/components/home/Contact';
+import Footer from './assets/components/home/Footer';
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
       <AboutSection />
       <Gallery />
       <Contact />
+      <Footer/>
     </>
   );
 }

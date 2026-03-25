@@ -8,7 +8,7 @@
 .contact-title {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #d4af37;
+  color: #037580;
 }
 
 .contact-subtitle {
@@ -17,7 +17,7 @@
 }
 
 .contact-link {
-  color: #d4af37;
+  color: #037580;
   text-decoration: none;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .contact-section .form-control {
-  background-color: #242424;
+  background-color: #111111;
   border: 1px solid #333;
   color: #fff;
   border-radius: 0.5rem;
@@ -42,14 +42,14 @@
 }
 
 .contact-section .form-control:focus {
-  background-color: #242424;
-  border-color: #d4af37;
-  box-shadow: 0 0 0 0.2rem rgba(212, 175, 55, 0.15);
+  background-color: #111111;
+  border-color: #037580;
+  box-shadow: 0 0 0 0.2rem #037580;
   color: #fff;
 }
 
 .contact-submit {
-  background-color: #d4af37 !important;
+  background-color: #037580 !important;
   border: none !important;
   color: #1a1a1a !important;
   font-weight: 600 !important;
@@ -58,5 +58,10 @@
 }
 
 .contact-submit:hover {
-  background-color: #e8c547 !important;
+  font-size: 120%;
+  padding: 0.45rem 1.65rem !important;
+  color: white !important;
+  font-weight: 700 !important;
+  background-color: #04a0ae !important;
+  transition: ease all 0.2s;
 }
