@@ -13,6 +13,12 @@
   object-fit: cover;
 }
 
+.about-image:hover{
+  box-shadow: #037580 0px 0px 20px;
+  transform: translateY(-6.7px);
+  transition: all 0.2s
+}
+
 .section-title {
   font-size: 3rem;
   font-weight: 700;
@@ -60,6 +66,12 @@
 }
 
 .feature-card p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #aaa;
+}
+
+.feature-card li {
   font-size: 0.95rem;
   line-height: 1.6;
   color: #aaa;
